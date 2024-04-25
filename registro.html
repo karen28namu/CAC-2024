@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="registro" content="width=device-width, initial-scale=1.0">
+        <title>CAC-Movies</title>
+        <link rel="stylesheet" href="indexre.html">
+        <link rel="stylesheet" href="registro.css">
+        <link rel="icon" href="imagenes/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"/>
+                  </svg>
+                <a class="otro" href="indexre.html">CAC-Movies</a>
+            </nav>
+        </header>
+
+        <section>
+            <div class="cuadrado">
+                <h1>Registro</h1>
+            <ul>
+                <form action="frm-usuario" method="post"action="registro-enviar.jsp" enctype="multipart/form-data">
+                   <li class="espacio"> <input class="datos" type="text" name="Nombre" id="Nombre" placeholder="Nombre" required></li>
+                   <li class="espacio"> <input class="datos" type="text" name="Apellido" id="Apellido" placeholder="Apellido" required></li>
+                   <li class="espacio"> <input class="datos" type="email" name="Email" placeholder="Email" required></li>
+                   <li class="espacio"> <input class="datos" type="password" placeholder="Contraseña" required></li>
+                   <li class="espacio"> <input class="datos" type="date" required></li>
+                   <li class="espacio">
+                        <select class="datos" name="Pais" aria-placeholder="País" required>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Brasil">Brasil</option>
+                        </select>
+                   </li>
+                   <li class="espacio"> <input type="checkbox" required>Acepto términos y condiciones</li>
+                   <li class="espacio"> <button class="registro">Registrate</button> </li>
+                   <li class="espacio"> <a class="otro" href="">¿Necesitas ayuda?</a></li>
+                </form>
+            </ul>
+            </div>
+        </section>
+    </body>
+</html>

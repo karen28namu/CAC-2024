@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url(imagenes/bg-register.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+}
+section a{
+    text-decoration: none;
+}
+.datos{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 265px;
+    border: 2px solid rgb(159, 54, 71);
+}
+.registro{
+    background-color: rgb(159, 54, 71);
+    color: white;
+    border-radius: 5px;
+    height: 55px;
+    width: 275px;
+    border: 1px solid rgb(159, 54, 71);
+}
+.espacio{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cuadrado{
+    background-color: rgb(42, 42, 42);
+    margin: 30px 470px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+footer a{
+    text-decoration: none;
+}
+footer{
+    padding: 10px 0;
+    background-color: rgb(159, 54, 71);
+}
+footer nav{
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.35em;
+}
+footer a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+footer a:hover{
+    color: black;
+}
